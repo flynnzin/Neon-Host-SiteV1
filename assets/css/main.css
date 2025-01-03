@@ -6828,3 +6828,20 @@ input.main-search-input::placeholder {
 .testimonial-click-text a:hover {
   background-color: var(--theme2);
 }/*# sourceMappingURL=main.css.map */
+
+.dedicated-banner__image .shape-image.one {
+  top: 10px;
+  right: 15px;
+  left: unset;
+  animation: 12s linear infinite rotateIt;
+}
+
+.rts-hero-shape-area .shape-four, .rts-hosting-banner__image .shape-image.one {
+  top: 0;
+  left: 0;
+}
+
+.rts-hero-shape-area img, .rts-hosting-banner__image .shape-image, .rts-services-area.area-3 .service-shape-area img, .rts-testimonial.area-3 .testimonial-shape-area img {
+  position: absolute;
+  z-index: -1;
+}
